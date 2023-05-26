@@ -45,7 +45,7 @@ module_param(scull_nr_devs, int, S_IRUGO);
 module_param(scull_quantum, int, S_IRUGO);
 module_param(scull_qset, int, S_IRUGO);
 
-MODULE_AUTHOR("Alessandro Rubini, Jonathan Corbet");
+MODULE_AUTHOR("Donald Jennings");
 MODULE_LICENSE("Dual BSD/GPL");
 
 struct scull_dev *scull_devices;	/* allocated in scull_init_module */
