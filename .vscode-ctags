@@ -1,0 +1,79 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/donald/Programming/linux-device-drivers/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+NUM	scull/scull.h	/^#define NUM(/;"	d
+PDEBUG	scull/scull.h	/^#    define PDEBUG(/;"	d
+PDEBUG	scull/scull.h	/^#  define PDEBUG(/;"	d
+PDEBUGG	scull/scull.h	/^#define PDEBUGG(/;"	d
+SCULL_IOCGQSET	scull/scull.h	/^#define SCULL_IOCGQSET /;"	d
+SCULL_IOCGQUANTUM	scull/scull.h	/^#define SCULL_IOCGQUANTUM /;"	d
+SCULL_IOCHQSET	scull/scull.h	/^#define SCULL_IOCHQSET /;"	d
+SCULL_IOCHQUANTUM	scull/scull.h	/^#define SCULL_IOCHQUANTUM /;"	d
+SCULL_IOCQQSET	scull/scull.h	/^#define SCULL_IOCQQSET /;"	d
+SCULL_IOCQQUANTUM	scull/scull.h	/^#define SCULL_IOCQQUANTUM /;"	d
+SCULL_IOCRESET	scull/scull.h	/^#define SCULL_IOCRESET /;"	d
+SCULL_IOCSQSET	scull/scull.h	/^#define SCULL_IOCSQSET /;"	d
+SCULL_IOCSQUANTUM	scull/scull.h	/^#define SCULL_IOCSQUANTUM /;"	d
+SCULL_IOCTQSET	scull/scull.h	/^#define SCULL_IOCTQSET /;"	d
+SCULL_IOCTQUANTUM	scull/scull.h	/^#define SCULL_IOCTQUANTUM /;"	d
+SCULL_IOCXQSET	scull/scull.h	/^#define SCULL_IOCXQSET /;"	d
+SCULL_IOCXQUANTUM	scull/scull.h	/^#define SCULL_IOCXQUANTUM /;"	d
+SCULL_IOC_MAGIC	scull/scull.h	/^#define SCULL_IOC_MAGIC /;"	d
+SCULL_IOC_MAXNR	scull/scull.h	/^#define SCULL_IOC_MAXNR /;"	d
+SCULL_MAJOR	scull/scull.h	/^#define SCULL_MAJOR /;"	d
+SCULL_NR_DEVS	scull/scull.h	/^#define SCULL_NR_DEVS /;"	d
+SCULL_P_BUFFER	scull/scull.h	/^#define SCULL_P_BUFFER /;"	d
+SCULL_P_IOCQSIZE	scull/scull.h	/^#define SCULL_P_IOCQSIZE /;"	d
+SCULL_P_IOCTSIZE	scull/scull.h	/^#define SCULL_P_IOCTSIZE /;"	d
+SCULL_P_NR_DEVS	scull/scull.h	/^#define SCULL_P_NR_DEVS /;"	d
+SCULL_QSET	scull/scull.h	/^#define SCULL_QSET /;"	d
+SCULL_QUANTUM	scull/scull.h	/^#define SCULL_QUANTUM /;"	d
+TYPE	scull/scull.h	/^#define TYPE(/;"	d
+_SCULL_H_	scull/scull.h	/^#define _SCULL_H_$/;"	d
+access_key	scull/scull.h	/^	unsigned int access_key;  \/* used by sculluid and scullpriv *\/$/;"	m	struct:scull_dev	typeref:typename:unsigned int
+cdev	scull/scull.h	/^	struct cdev cdev;	  \/* Char device structure		*\/$/;"	m	struct:scull_dev	typeref:struct:cdev
+data	scull/scull.h	/^	struct scull_qset *data;  \/* Pointer to first quantum set *\/$/;"	m	struct:scull_dev	typeref:struct:scull_qset *
+data	scull/scull.h	/^	void **data;$/;"	m	struct:scull_qset	typeref:typename:void **
+hello_exit	hello-world/hello-world.c	/^static void hello_exit(void)$/;"	f	typeref:typename:void	file:
+hello_init	hello-world/hello-world.c	/^static int hello_init(void)$/;"	f	typeref:typename:int	file:
+lock	scull/scull.h	/^	struct mutex lock;     \/* mutual exclusion semaphore     *\/$/;"	m	struct:scull_dev	typeref:struct:mutex
+next	scull/scull.h	/^	struct scull_qset *next;$/;"	m	struct:scull_qset	typeref:struct:scull_qset *
+qset	scull/scull.h	/^	int qset;                 \/* the current array size *\/$/;"	m	struct:scull_dev	typeref:typename:int
+quantum	scull/scull.h	/^	int quantum;              \/* the current quantum size *\/$/;"	m	struct:scull_dev	typeref:typename:int
+scull_cleanup_module	scull/scull.c	/^void scull_cleanup_module(void)$/;"	f	typeref:typename:void
+scull_create_proc	scull/scull.c	/^static void scull_create_proc(void)$/;"	f	typeref:typename:void	file:
+scull_dev	scull/scull.h	/^struct scull_dev {$/;"	s
+scull_devices	scull/scull.c	/^struct scull_dev *scull_devices;	\/* allocated in scull_init_module *\/$/;"	v	typeref:struct:scull_dev *
+scull_follow	scull/scull.c	/^static struct scull_qset *scull_follow(struct scull_dev *dev, int n)$/;"	f	typeref:struct:scull_qset *	file:
+scull_fops	scull/scull.c	/^struct file_operations scull_fops = {$/;"	v	typeref:struct:file_operations
+scull_init_module	scull/scull.c	/^int scull_init_module(void)$/;"	f	typeref:typename:int
+scull_llseek	scull/scull.c	/^loff_t scull_llseek(struct file *filp, loff_t off, int whence)$/;"	f	typeref:typename:loff_t
+scull_major	scull/scull.c	/^int scull_major =   SCULL_MAJOR;$/;"	v	typeref:typename:int
+scull_minor	scull/scull.c	/^int scull_minor =   0;$/;"	v	typeref:typename:int
+scull_nr_devs	scull/scull.c	/^int scull_nr_devs = SCULL_NR_DEVS;	\/* number of bare scull devices *\/$/;"	v	typeref:typename:int
+scull_open	scull/scull.c	/^int scull_open(struct inode *inode, struct file *filp)$/;"	f	typeref:typename:int
+scull_qset	scull/scull.c	/^int scull_qset =    SCULL_QSET;$/;"	v	typeref:typename:int
+scull_qset	scull/scull.h	/^struct scull_qset {$/;"	s
+scull_quantum	scull/scull.c	/^int scull_quantum = SCULL_QUANTUM;$/;"	v	typeref:typename:int
+scull_read	scull/scull.c	/^ssize_t scull_read(struct file *filp, char __user *buf, size_t count, loff_t *f_pos)$/;"	f	typeref:typename:ssize_t
+scull_release	scull/scull.c	/^int scull_release(struct inode *inode, struct file *filp)$/;"	f	typeref:typename:int
+scull_remove_proc	scull/scull.c	/^static void scull_remove_proc(void)$/;"	f	typeref:typename:void	file:
+scull_seq_next	scull/scull.c	/^static void *scull_seq_next(struct seq_file *s, void *v, loff_t *pos)$/;"	f	typeref:typename:void *	file:
+scull_seq_ops	scull/scull.c	/^static struct seq_operations scull_seq_ops = {$/;"	v	typeref:struct:seq_operations	file:
+scull_seq_show	scull/scull.c	/^static int scull_seq_show(struct seq_file *s, void *v)$/;"	f	typeref:typename:int	file:
+scull_seq_start	scull/scull.c	/^static void *scull_seq_start(struct seq_file *s, loff_t *pos)$/;"	f	typeref:typename:void *	file:
+scull_seq_stop	scull/scull.c	/^static void scull_seq_stop(struct seq_file *s, void *v)$/;"	f	typeref:typename:void	file:
+scull_setup_cdev	scull/scull.c	/^static void scull_setup_cdev(struct scull_dev *dev, int index)$/;"	f	typeref:typename:void	file:
+scull_trim	scull/scull.c	/^int scull_trim(struct scull_dev *dev)$/;"	f	typeref:typename:int
+scull_write	scull/scull.c	/^ssize_t scull_write(struct file *filp, const char __user *buf, size_t count, loff_t *f_pos)$/;"	f	typeref:typename:ssize_t
+scullseq_proc_open	scull/scull.c	/^static int scullseq_proc_open(struct inode *inode, struct file *file)$/;"	f	typeref:typename:int	file:
+scullseq_proc_ops	scull/scull.c	/^static struct file_operations scullseq_proc_ops = {$/;"	v	typeref:struct:file_operations	file:
+size	scull/scull.h	/^	unsigned long size;       \/* amount of data stored here *\/$/;"	m	struct:scull_dev	typeref:typename:unsigned long
