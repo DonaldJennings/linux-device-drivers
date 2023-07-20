@@ -1,0 +1,1 @@
+cmd_/home/donald/Programming/linux-device-drivers/hello-world/hello-world.mod := printf '%s\n'   hello-world.o | awk '!x[$$0]++ { print("/home/donald/Programming/linux-device-drivers/hello-world/"$$0) }' > /home/donald/Programming/linux-device-drivers/hello-world/hello-world.mod
