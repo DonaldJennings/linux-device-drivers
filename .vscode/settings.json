@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "cdev.h": "c",
-        "chardev.h": "c"
+        "chardev.h": "c",
+        "fcntl.h": "c",
+        "fs.h": "c"
     }
 }
