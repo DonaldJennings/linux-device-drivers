@@ -4,6 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
+                "${workspaceFolder}/include/**",
                 "/usr/src/linux-hwe-5.19-headers-5.19.0-46/arch/x86",
                 "/usr/src/linux-hwe-5.19-headers-5.19.0-46/arch/x86/include/**",
                 "/usr/src/linux-hwe-5.19-headers-5.19.0-46/include/**"
