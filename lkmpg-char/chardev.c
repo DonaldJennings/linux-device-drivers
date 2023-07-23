@@ -26,12 +26,12 @@ static int __init chardev_init(void)
         return major;
     }
 
-    pr_info("I was assigned major number %d", major);
+    pr_info("LKMPG-CHARDEV: I was assigned major number %d", major);
 
     cls = class_create(THIS_MODULE, DEVICE_NAME);
     device_create(cls, NULL, MKDEV(major, 0), NULL, DEVICE_NAME);
 
-    pr_info("Device created on /dev/%s", DEVICE_NAME);
+    pr_info("LKMPG-CHARDEV: Device created on /dev/%s", DEVICE_NAME);
 
     return SUCCESS;
 }
@@ -56,7 +56,7 @@ static int device_open(struct inode *inode, struct file *file)
     if (atomic_cmpxchg(&already_open, CDEV_NOT_USED, CDEV_EXCLUSIVE_OPEN)) 
         return -EBUSY; 
  
-    sprintf(msg, "I already told you %d times Hello world!\n", counter++); 
+    sprintf(msg, "LKMPG-CHARDEV: I already told you %d times Hello world!\n", counter++); 
     try_module_get(THIS_MODULE); 
  
     return SUCCESS; 
@@ -117,7 +117,7 @@ static ssize_t device_read(struct file *filp, /* see include/linux/fs.h   */
 static ssize_t device_write(struct file *filp, const char __user *buff, 
                             size_t len, loff_t *off) 
 { 
-    pr_alert("Sorry, this operation is not supported.\n"); 
+    pr_alert("LKMPG-CHARDEV: Sorry, this operation is not supported.\n"); 
     return -EINVAL; 
 } 
  

@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "cdev.h": "c"
+        "cdev.h": "c",
+        "chardev.h": "c"
     }
 }
