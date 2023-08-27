@@ -4,6 +4,7 @@
         "chardev.h": "c",
         "fcntl.h": "c",
         "fs.h": "c",
-        "access_ok_version.h": "c"
+        "access_ok_version.h": "c",
+        "kernel.h": "c"
     }
 }
